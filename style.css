@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Fredericka+the+Great&family=Josefin+Sans&family=Kavoon&family=Noto+Sans+JP&display=swap');
+
+
+@font-face {
+    font-family:'HalloWitchZ' ;
+    src: url('../fonts/HalloWitchZ.otf'),format('opentype'), url('fonts/HalloWitchZ.ttf'),format('truetype')
+
+}
+
+
+body{
+    background-image:linear-gradient(to bottom,#768098,hsl(222, 14%, 53%),#768098,#769EA6);
+    
+    font-family:'HalloWitchZ''Josefin Sans',Times, serif;
+    font-size: 30px ;
+
+}
+
+
+header{
+    border: 10px double  rgb(181, 201, 126);
+    padding:10px;
+    margin: 15px;
+    border-radius: 10px;
+   
+}
+h1 {
+    color:hsl(240, 58%, 49%);
+    text-align: center;
+    font-family:'Josefin Sans',Times, serif;
+    font-size: 2em;
+    font-weight: normal;
+    
+}
+.jaka{
+    background-color: #DEC868;
+    text-decoration: none;
+}
+h2{
+color:#5E552C;
+text-align: center;
+font-family:'Josefin Sans',Times, serif ;
+}
+p{
+    border: 2px solid white;
+    margin: 5px;
+    padding:10px;
+
+    color:#F0F4A3;
+
+   
+    
+    
+    
+}
+h3{
+    color:#F0F4A3;
+    text-align: center;
+
+}
+li{
+    color:#F0F4A3;
+}
+a{
+    color:#F0F4A3;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+.extra{
+    background-color:#9E8F4A ;
+    color:#5E552C ;
+}
+
+   
+   .biblioteca:hover > p{
+    display: block ;
+    color:#eaf559;
+    background-color: red;
+    width: 300px;
+    
+    
+    
+    
+    
+    
+
+}
+   
+   .biblioteca > p{
+    display: none;
+   
+    
+    
+   }
+   .biblioteca:hover > p{
+    display: block;
+    color: blanchedalmond;
+    
+    
+
+   }
+
+   nav > a{
+
+
+margin:10px;
+
+   }
+   .moedas:hover > p{
+    display: block;
+    color:blanchedalmond;
+    background-color: red;
+    width: 300px;
+    
+
+   }
+   .moedas > p{
+    display: none;
+
+    
+
+   }
+   .moedas:hover > a{
+    display: block;
+    color: blanchedalmond;
+
+   
+   }
+   img{
+    
+   }
